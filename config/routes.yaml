@@ -1,0 +1,3 @@
+index:
+    path: /api/v1/song
+    defaults: { _controller: 'App\Controller\SongController::getSongAction' }
