@@ -6,4 +6,5 @@ return [
     Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle::class => ['all' => true],
     FOS\RestBundle\FOSRestBundle::class => ['all' => true],
     JMS\SerializerBundle\JMSSerializerBundle::class => ['all' => true],
+    Sensio\Bundle\DistributionBundle\SensioDistributionBundle::class => ['all' => true],
 ];
