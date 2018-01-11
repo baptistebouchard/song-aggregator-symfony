@@ -1,0 +1,2 @@
+parameters:
+    ovh_base_uri: https://api.lyrics.ovh/v1/
