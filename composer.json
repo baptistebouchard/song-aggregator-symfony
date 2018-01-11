@@ -35,12 +35,10 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "php bin/console cache:clear",
-            "php bin/console assets:install --symlink --relative %PUBLIC_DIR%"
+            "php bin/console cache:clear"
         ],
         "post-update-cmd": [
-            "php bin/console cache:clear",
-            "php bin/console assets:install --symlink --relative %PUBLIC_DIR%"
+            "php bin/console cache:clear"
         ]
     },
     "conflict": {
