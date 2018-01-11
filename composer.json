@@ -33,7 +33,18 @@
             "App\\Tests\\": "tests/"
         }
     },
-    "scripts": {},
+    "scripts": {
+        "auto-scripts": {
+            "cache:clear": "php bin/console",
+            "assets:install --symlink --relative %PUBLIC_DIR%": "php bin/console"
+        },
+        "post-install-cmd": [
+            "@auto-scripts"
+        ],
+        "post-update-cmd": [
+            "@auto-scripts"
+        ]
+    },
     "conflict": {
         "symfony/symfony": "*",
         "symfony/twig-bundle": "<3.3",
